@@ -48,7 +48,7 @@ slam_toolbox:
 
 
 
-    debug_logging: false
+    debug_logging: True
 
     throttle_scans: 1
 

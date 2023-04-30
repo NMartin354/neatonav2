@@ -30,7 +30,7 @@ def generate_launch_description():
     
     map_yaml_path = DeclareLaunchArgument(
         'map_path',
-        default_value=os.path.join(pkg_share, "map", "map_save.yaml"),
+        default_value=os.path.join(pkg_share, "map", "map.yaml"),
         description='path for map file')
     bringup_cmd_group = GroupAction ([                                                                     
         IncludeLaunchDescription(
